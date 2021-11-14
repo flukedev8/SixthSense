@@ -31,20 +31,12 @@ var Human = /** @class */ (function () {
         return status;
     };
     Human.prototype.CheckProfile = function () {
-        console.log("<=======================>");
+        console.log("<==========Human=============>");
         console.log("เขามีเพศ:" + this.sex);
         console.log("เขามีอายุ:" + this.age);
         console.log("เขามีสัมผัสที่ 6:" + this.sixth_sense);
         console.log("เขาอยู่ที่:" + this.location);
-        console.log("<=======================>");
-    };
-    Human.prototype.CheckCondition = function () {
-        if (this.CheckSixthSense()) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        console.log("<==========Human=============>");
     };
     return Human;
 }());
